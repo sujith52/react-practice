@@ -9,12 +9,13 @@ import Productlist from './components/Productlist'
 import Example1 from './sample/Example1'
 import Person from './components/Person'
 import Product from './components/Product'
+import Weather from './components/Weather'
+import Userstatus from './components/Userstatus'
 
 const App = () => {
   return (
     <div>
-       <Person name="Sujith kumar" age={22} />
-       <Product name="Fan" price={56235} />
+      <Userstatus loggedin ={true} isadmin = {false} />
     </div>
   )
 }
