@@ -11,11 +11,17 @@ import Person from './components/Person'
 import Product from './components/Product'
 import Weather from './components/Weather'
 import Userstatus from './components/Userstatus'
+import Greet from './components/Greet'
+import Styledcard from './1sthour/Styledcard'
+import Profilecard from './1sthour/Profilecard'
+import IconComponent from './1sthour/IconComponent'
 
 const App = () => {
   return (
     <div>
-      <Userstatus loggedin ={true} isadmin = {false} />
+      <Profilecard />
+      <Styledcard />
+      <IconComponent />
     </div>
   )
 }
