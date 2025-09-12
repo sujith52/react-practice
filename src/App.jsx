@@ -15,13 +15,13 @@ import Greet from './components/Greet'
 import Styledcard from './1sthour/Styledcard'
 import Profilecard from './1sthour/Profilecard'
 import IconComponent from './1sthour/IconComponent'
+import Counter from './2ndhour/Counter'
+import TodoList from './2ndhour/TodoList'
 
 const App = () => {
   return (
     <div>
-      <Profilecard />
-      <Styledcard />
-      <IconComponent />
+     <TodoList />
     </div>
   )
 }
